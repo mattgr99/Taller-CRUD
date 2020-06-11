@@ -1,0 +1,52 @@
+﻿@model IEnumerable<BEUETallerCrud.Pelicula>
+
+
+
+<h2>@ViewBag.Title</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-hover">
+    <thead class="bg-info">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.nombre_pelicula)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.fecha_lanzamiento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.categoria)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.duracion)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.nombre_pelicula)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.fecha_lanzamiento)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.categoria)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.duracion)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.id_pelicula }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.id_pelicula }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.id_pelicula })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

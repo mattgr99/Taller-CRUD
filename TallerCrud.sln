@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerCrud", "TallerCrud\TallerCrud.csproj", "{81B5EA65-5EC3-44DE-8718-D69A48575FBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BEUETallerCrud", "BEUETallerCrud\BEUETallerCrud.csproj", "{A51E5189-4C81-4051-A67C-E800D14C9246}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81B5EA65-5EC3-44DE-8718-D69A48575FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81B5EA65-5EC3-44DE-8718-D69A48575FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81B5EA65-5EC3-44DE-8718-D69A48575FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81B5EA65-5EC3-44DE-8718-D69A48575FBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A51E5189-4C81-4051-A67C-E800D14C9246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51E5189-4C81-4051-A67C-E800D14C9246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51E5189-4C81-4051-A67C-E800D14C9246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51E5189-4C81-4051-A67C-E800D14C9246}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F289A43A-E4B5-4869-87E6-DB41A699AC84}
+	EndGlobalSection
+EndGlobal
